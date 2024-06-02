@@ -32,7 +32,7 @@ export default function Card() {
                     <img src={data?.current?.condition?.icon} alt="not found" />
                     <h1>Temperature : {data?.current?.temp_c} °C</h1>
                     <h1>Feels Like : {data?.current?.feelslike_c} °C</h1>
-                    <h3>Wind Speed : 5kph</h3>
+                    <h3>Wind Speed : {data?.current?.wind_kph}kph</h3>
                     <h3>Humadity : {data?.current?.humidity}</h3>
                     <h2>{data?.location?.name} {data?.location?.region},{data?.location?.country}</h2>
                 </div>
