@@ -21,7 +21,7 @@ export default function Card() {
     },[])
     return (
         <>
-            <div className="card w-96 h-96 bg-white rounded-lg p-10 flex items-center flex-col outline-none gap-5 justify-center" >
+            <div className="card m-6 bg-white rounded-lg p-10 flex items-center flex-col outline-none gap-5 justify-center sm:h-auto sm:w-auto" >
                 <div className="search flex justify-evenly items-center w-full">
                     <form onSubmit={handleSubmit}>
                         <input type="text" placeholder="Enter City Name" name="city" value={city} onChange={(e) => setcity(e.target.value)} required/>
@@ -36,6 +36,7 @@ export default function Card() {
                     <h3>Humadity : {data?.current?.humidity}</h3>
                     <h2>{data?.location?.name} {data?.location?.region},{data?.location?.country}</h2>
                 </div>
+                <p>Made By Nesar Alam</p>
             </div>
         </>
     )

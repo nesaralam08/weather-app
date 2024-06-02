@@ -10,3 +10,7 @@ button{
     padding:8px 10px 8px 10px;
     border-radius:5px;
 }
+p{
+    color:darkblue;
+    font-weight: 600;
+}
