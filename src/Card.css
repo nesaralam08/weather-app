@@ -1,0 +1,12 @@
+.card input{
+    outline:none;
+    border:none;
+    background-color:whitesmoke;
+    padding:8px;
+    border-radius:5px;
+}
+button{
+    background-color:green; 
+    padding:8px 10px 8px 10px;
+    border-radius:5px;
+}
